@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Next-Gen Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">SURAJ MEENA</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+  <section id="hero" class="hero-section">
+    <div class="hero-bg"></div>
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-content">
+      <h1>Hello, I'm <span class="highlight">SURAJ MEENA</span></h1>
+      <p class="subtitle"><span id="typed-text"></span></p>
+      <a href="#projects" class="cta-btn">View My Work</a>
+      <div class="social-icons">
+        <a href="https://github.com/suraj1633" target="_blank" rel="noopener" aria-label="GitHub"><svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path fill="#a259ff" d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.17-1.1-1.48-1.1-1.48-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.38 9.38 0 0 1 12 6.84c.85.004 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.8 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z"/></svg></a>
+        <a href="https://www.linkedin.com/in/suraj-meena-1506b3293/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path fill="#a259ff" d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.28c-.97 0-1.75-.79-1.75-1.75s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.75-1.75 1.75zm13.5 10.28h-3v-4.5c0-1.08-.02-2.47-1.5-2.47-1.5 0-1.73 1.17-1.73 2.39v4.58h-3v-9h2.89v1.23h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.59v4.72z"/></svg></a>
+      </div>
+    </div>
+  </section>
+  <div class="scroll-down-arrow">
+    <span></span>
+  </div>
+<div class="wave-divider">
+    <section id="about" class="about-section fade-in">
+      <div class="container scale-in">
+        <div class="profile-card scale-in">
+          <img src="profile.jpg" alt="Profile Picture" class="profile-pic fade-in" />
+          <h2 class="slide-up">Suraj Meena</h2>
+          <p class="tagline slide-up">Front-End Developer & Tech Explorer</p>
+        </div>
+        <div class="quick-facts slide-up">
+          <div class="fact"><span class="icon">📍</span> <span>India</span></div>
+          <div class="fact"><span class="icon">💻</span> <span>C, C++, Python, JS </span></div>
+          <div class="fact"><span class="icon">🎵</span> <span>Music & Badminton</span></div>
+        </div>
+        <div class="about-bio slide-up">
+          <p>I'm a passionate developer who loves building beautiful, performant web experiences. I enjoy learning new technologies, collaborating on open source, and solving real-world problems. When I'm not coding, you'll find me exploring music, playing chess, or reading about tech trends.</p>
+        </div>
+        <div class="skills-row fade-in">
+          <span class="skill-badge scale-in">C/C++</span>
+          <span class="skill-badge scale-in">Python</span>
+          <span class="skill-badge scale-in">JavaScript</span>
+          <span class="skill-badge scale-in">HTML</span>
+          <span class="skill-badge scale-in">LaTex</span>
+          <span class="skill-badge scale-in">CSS</span>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects-section fade-in">
+        <div class="container">
+        <h2 class="slide-up">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card scale-in">
+              <img src="Learnhub.png" alt="Project 2 Screenshot" class="project-img fade-in" />
+              <h3 class="slide-up">LearnHub</h3>
+              <p class="slide-up">A comprehensive e-learning platform enabling teachers to create, manage, and sell courses, while students can enroll, track progress, and interact with content. Built with Python, MongoDB, and modern web technologies, LearnHub features secure authentication, dynamic dashboards, and a seamless user experience for both educators and learners.</p>
+              <div class="project-tech fade-in">
+                <span>Python</span>
+                <span>MongoDB</span>
+                <span>HTML</span>
+                <span>JavaScript</span>
+                <span>CSS</span>
+              </div>
+              <button class="project-btn slide-up" onclick="window.open('#', '_blank')">View Project</button>
+            </div>
+            <div class="project-card scale-in">
+                <img src="portfolio.png" alt="My Project Screenshot" class="project-img fade-in" />
+                <h3 class="slide-up">My Personal Portfolio</h3>
+                <p class="slide-up">A modern, interactive portfolio website built with advanced HTML, CSS, and JavaScript. Features a dark glassy theme, animated hero section, smooth scroll, responsive design, and dynamic project showcases. Designed to impress and provide a seamless user experience across all devices.</p>
+                <div class="project-tech fade-in">
+                  <span>HTML</span>
+                  <span>JavaScript</span>
+                  <span>CSS</span>
+                </div>
+                <button class="project-btn slide-up" onclick="window.open('#', '_blank')">View Project</button>
+              </div>
+        </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section fade-in">
+        <div class="container scale-in">
+        <h2 class="slide-up">Contact</h2>
+        <form id="contact-form" class="slide-up">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="form-message" class="slide-up"></div>
+        </div>
+    </section>
+</div>    
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 SURAJ MEENA. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 
